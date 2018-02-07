@@ -1,4 +1,4 @@
-import { TestBed, async } from '@angular/core/testing';
+ import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { RouterTestingModule } from '@angular/router/testing';
 describe('AppComponent', () => {
@@ -27,3 +27,4 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1').textContent).toContain('Welcome to app!');
   }));
 });
+ 

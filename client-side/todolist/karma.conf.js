@@ -6,18 +6,28 @@ module.exports = function (config) {
     basePath: '',
     frameworks: ['jasmine', '@angular/cli'],
     plugins: [
+     // require('karma-coverage'),
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
       require('karma-jasmine-html-reporter'),
       require('karma-coverage-istanbul-reporter'),
       require('@angular/cli/plugins/karma')
     ],
+    /**
+     * List of files to exclude.
+    */
+    exclude: [],
+    
     client:{
-      clearContext: false // leave Jasmine Spec Runner output visible in browser
+      clearContext: false, // leave Jasmine Spec Runner output visible in browser
+      captureConsole: false
     },
     coverageIstanbulReporter: {
-      reports: [ 'html', 'lcovonly' ],
+      reports: [ 'html', 'lcovonly','text-summary' ],
       fixWebpackSourcePaths: true
+    },
+    preprocessors : {
+      "./src/test.ts": ["@angular/cli"]
     },
     angularCli: {
       environment: 'dev'
