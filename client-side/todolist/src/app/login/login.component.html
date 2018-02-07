@@ -1,0 +1,11 @@
+<div class="container-fluid loginForm col-md-4">
+<form [formGroup]="loginForm" (submit)="login()">
+    <div class="form-group">
+        <label for="userName ">User Name</label>
+        <input type="text"  class="form-control" formControlName="userName" id="userName" placeholder="UserName"/>
+        <label for="password">Password</label>
+        <input type="password" class="form-control" formControlName="password" id="password" placeholder="Password" placeholder="Password"/>
+    </div>
+    <button type="submit" [disabled]="!loginForm.valid" class="btn btn-primary loginBtn" >Login</button>
+</form>
+</div>

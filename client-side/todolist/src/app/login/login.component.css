@@ -1,0 +1,10 @@
+.loginForm {
+    width: 50%;
+    margin-top: 15%;
+    border: 1px solid black;
+    background: #d6d6f5;
+}
+
+.loginBtn {
+    margin-bottom: 2%;
+}
