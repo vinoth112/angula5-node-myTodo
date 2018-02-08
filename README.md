@@ -1,11 +1,11 @@
 
 Steps to run the application:
 
-               todo-app-angular5-node\client-side\todolist --> npm i --> npm start or ng-serve
+              angula5-node-myTodo\client-side\todolist --> npm i --> npm start or ng-serve
 
 Server side:
            
-              online-test\todo-app-angular5-node\server-side - npm i --> then --> npm start
+              angula5-node-myTodo\server-side - npm i --> then --> npm start
 
 MongoDb:
          
