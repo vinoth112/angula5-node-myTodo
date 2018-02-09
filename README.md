@@ -13,4 +13,9 @@ MongoDb:
 Robo Mongo:
 
               Open Robo Mongo to view the Database and collection.
-              Collection Name : test 
+              Collection Name : test --> material
+              
+Login credentials:
+
+username: admin
+password: admin
