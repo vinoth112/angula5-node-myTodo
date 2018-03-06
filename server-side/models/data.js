@@ -24,19 +24,7 @@ var material = mongoose.model('material', {
     }
 });
 
-var users = mongoose.model('chat-users', {
-    username: {
-        type: String,
-        required: true
-    },
-    password: {
-        type: String,
-        minlength: 3,
-        required: true
-    }
-});
-
 
 module.exports = {
-    material, users
+    material
 };

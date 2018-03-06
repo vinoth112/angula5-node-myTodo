@@ -29,7 +29,6 @@ const routes: Routes = [
     MaterialListComponent,
     HeaderComponent,
     MaterialFormComponent,
-    
   ],
   imports: [
     BrowserModule,
